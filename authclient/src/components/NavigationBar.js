@@ -16,32 +16,37 @@ class NavigationBar extends React.Component {
 
     const userLinks = (
       <ul className="navbar navbar-nav navbar-right list-group">
+        <li>
+          <Link to="todo" className="list-group-item">Manage Todos</Link>
+        </li>
+
         <li className="list-group-item">
           <a href="#" onClick={this.logout.bind(this)}>Logout</a>
         </li>
+
       </ul>
     );
 
     const guestLinks = (
-      <ul className="navbar navbar-nav navbar-right list-group">
+      <ul className="navbar navbar-nav navbar-right list-group navbar-right">
         <li>
-          <Link to="signup" className="list-group-item">SignUp</Link>
+          <Link to="signup" className="list-group-item"><span class="glyphicon glyphicon-user">SignUp</span></Link>
         </li>
         <li>
-          <Link to="login" className="list-group-item">Login</Link>
+          <Link to="login" className="list-group-item"><span class="glyphicon glyphicon-log-in">Login</span></Link>
         </li>
       </ul>
     );
 
     return (
-      <nav className="navbar navbar-default">
+      <nav className="navbar navbar-inverse">
         <div className="container-fluid">
           <div className="navbar-header">
             <Link to="/" className="navbar-brand">
-              Logo
+              <img src="../images/logo.jpg" />
             </Link>
           </div>
-          <div className="collapse navbar-collapse" />
+          <div className="collapse navbar-collapse nav navbar-nav navbar-left" />
             {isAuthenticated ? userLinks : guestLinks}
           </div>
       </nav>

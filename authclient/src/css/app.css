@@ -1,0 +1,90 @@
+.list-group-item {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.action-btn {
+    right: 100px;
+}
+
+
+
+/* input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 365px;
+    border-radius: 5px;
+  } */
+/* body {
+    background-color: #66CCFF;
+    font-family: sans-serif;
+  } */
+
+  #app {
+    display: block;
+    justify-content: center; 
+  }
+/* 
+h1 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+
+button {
+    padding: 7px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #0066FF;
+  }
+
+  .cancel-btn {
+      background: red;
+  }
+
+  .cancel-btn:hover {
+      background: darkred;
+  }
+
+  button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+  } */
+ /* th {
+    font-size: 20px;
+    padding-right: 200px;
+    padding-top: 20px;  
+}  */
+/* 
+th {
+    width: 150px;
+    padding-top: 60px;
+}
+
+td{
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.task-desc {
+    font-size: 20px;
+}
+
+.createTodoInput {
+    padding-top: 50px;
+}
+
+.search-box {
+    margin-top: 30px;
+    position: absolute;
+    top: 125px;
+    left: 450px;
+} */

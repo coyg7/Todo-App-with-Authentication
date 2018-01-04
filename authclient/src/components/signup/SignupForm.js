@@ -197,7 +197,7 @@ class SignupForm extends React.Component {
             disabled={this.state.isLoading || this.state.invalid}
             className="btn btn-primary btn-lg"
           >
-            Sign up
+            <span class="glyphicon glyphicon-user">SignUp</span>
           </button>
         </div>
       </form>

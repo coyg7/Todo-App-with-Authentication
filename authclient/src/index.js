@@ -1,7 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app';
+
 import routes from './routes';
 import thunk from 'redux-thunk';
-import ReactDOM from 'react-dom';
+
 import { Provider } from 'react-redux';
 import rootReducer from './rootReducer';
 import { Router, browserHistory } from 'react-router';
@@ -22,6 +25,10 @@ if(localStorage.jwtToken) {
   setAuthorizationToken(localStorage.jwtToken);
   store.dispatch(setCurrentUser(jwtDecode(localStorage.jwtToken)));
 }
+
+
+
+
 
 
 ReactDOM.render(
